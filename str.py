@@ -17,5 +17,10 @@ new = next(reader)
 data = [row for row in reader]
 print(data)
 print(new)
+
+new = next(reader)
+data = [row for row in reader]
+print(data)
+print(new)
         
         
